@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pl.kodu.akademia.Controllers.LoginFlowPane">
+    <Label fx:id="userLabel" text="User" AnchorPane.topAnchor="40" AnchorPane.leftAnchor="20"/>
+    <TextField fx:id="user" AnchorPane.topAnchor="40" AnchorPane.leftAnchor="100"/>
+    <Label fx:id="passLabel" text="Password:" AnchorPane.leftAnchor="20" AnchorPane.topAnchor="80"/>
+    <PasswordField fx:id="password" AnchorPane.topAnchor="80" AnchorPane.leftAnchor="100"/>
+    <Button fx:id="login" text="Login" onAction="#autenthicate" AnchorPane.bottomAnchor="50" AnchorPane.leftAnchor="120"/>
+
+</AnchorPane>
